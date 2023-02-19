@@ -1,0 +1,14 @@
+//name: fiona haria
+//sap-id: 60009220048
+#include <stdio.h>
+
+//conditional operator
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    num % 2 == 0 ? printf("%d is even\n", num) : printf("%d is odd\n", num);
+    
+    return 0;
+}
